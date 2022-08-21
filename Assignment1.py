@@ -1,5 +1,6 @@
 #Answer to Question 1.
-#python-VV
+import sys
+print(sys.version)
 
 #Answer to Question 2 
 #Open cmd -> type python -> enter

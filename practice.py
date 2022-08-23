@@ -1,5 +1,33 @@
+i = 1
+while i<=3:
+    x = int(input("Enter a number: "))
+    if x%2 == 0:
+        print("Winner !!")
+        break
+    i=i+1
+else:
+    print("You Lost!!")
+
+
 
 '''
+i = 1
+while i<=20:
+    if i%2 ==0:
+        print(i,end =' ')
+    i=i+1
+
+
+i = 10 
+while i:
+    print(i, end =' ')
+    i=i-1
+
+loop = 0
+while loop <5:
+    print("MySirG")
+    loop=loop+1
+
 x = int(input("Enter a number"))
 if x > 0:
     print ("Number is positive ")
@@ -22,7 +50,7 @@ elif marks >= 50 and marks <=60:
 else:
     print("F")
 
-'''
+
 
 # Single line if else
 print ("Number is positive " if int(input("Enter a number: "))>0 else "Number is Non positive")
@@ -35,3 +63,4 @@ match x:
     case 2:
         print("Hello")
         
+'''

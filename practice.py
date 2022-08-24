@@ -1,3 +1,24 @@
+for i in range ((int(input("Enter a number: "))),1,-2):
+    print(i, end =' ')
+'''
+str = input("Enter a String: ")
+for s in str:
+    if s =='r':
+        break
+    else:
+        print(s, end ='')
+else:
+    print()
+    print("All characters are printed")
+
+str = input("Enter a String: ")
+count = 0
+for s in str:
+    if s == 'a':
+        count = count+1
+print(count)
+
+
 i = 1
 while i<=3:
     x = int(input("Enter a number: "))
@@ -10,7 +31,6 @@ else:
 
 
 
-'''
 i = 1
 while i<=20:
     if i%2 ==0:
